@@ -1,0 +1,283 @@
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 300;
+}
+h6{
+    font-size: 0.875rem;
+    font-weight: 200;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure it spans the full width without exceeding */
+    margin: 0;
+    padding: 0;
+    position: fixed; /* Fix the navbar to the top of the viewport */
+    z-index: 1000; /* Ensure it stays above other elements */
+    background-color: white; /* Optional: Set a background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    padding: 0 20px;
+    color:black;
+}
+body > section.brands > div > img:nth-child(6){
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+a{
+    color : black;
+    text-decoration: none;
+    background-color: rgb(253, 251, 251);
+    padding:  20px;
+    border-radius: 5px;
+}
+svg{
+    width: 20px;
+    height: 20px;
+    fill: black;
+}
+svg:hover, a:hover{
+    fill: coral;
+    color: coral;
+    cursor: pointer;
+    scale: 1.2;
+}
+#bp{
+    color: coral;
+
+}
+
+.btn{
+     font-size: 0.8rem;
+     font: 700;
+     outline: none;
+     border: none;
+     background-color: #1d1d1d;
+     color: aliceblue;
+     padding: 13px 30px;
+     text-transform: uppercase;
+     cursor: pointer;
+     transition: 0.4s ease;
+}
+.btn:hover{
+    background-color: coral;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    scale: 1.1;
+}
+.myText span{
+    opacity: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline;
+    width: 30px;
+    white-space: normal;
+    
+}
+.myText1 span{
+    opacity: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline;
+    width: 30px;
+    white-space: normal;
+    
+}
+.myText2 span{
+    opacity: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: inline;
+    width: 30px;
+    white-space: normal;
+    
+}
+.home{
+    background-image:url("imgs/images/img/back.jpg") ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 80px; /* Add margin to prevent the navbar from overlapping */
+}
+.container{
+    margin:0
+}
+body > section.new.w-100 > div > div:nth-child(1) > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+body > section.new.w-100 > div > div:nth-child(2) > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+body > section.new.w-100 > div > div:nth-child(3) > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+
+.new .one {
+    width: 400px;
+    height: 400px;
+}
+.details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Make the details cover the entire image */
+    display: flex; /* Use Flexbox for centering */
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    text-align: center; /* Center-align the text */
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect the size */
+    /* pointer-events: none; Allows hover events to pass through to the image */
+    cursor: pointer;
+
+}
+
+.details h2 {
+    padding: 4px;
+    border-bottom: #1d1d1d 2px solid; /* Add a bottom border to the heading */
+    margin-bottom: 15px; /* Add spacing below the heading */
+    cursor: pointer;
+
+
+}
+
+.new  .one:hover .details {
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+    background-color: coral;
+    color: white ;
+    opacity: 0.6 ;
+
+
+}
+
+.new .one .details button {
+display: block;
+font-size: 100px;
+font-weight: 600;
+color: #1d1d1d;
+background: none;
+border: none;
+}
+.crds{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+body > section.featured > div.crds.row.text-center{
+    margin-right: 0px;
+}
+
+.card:hover{
+    scale: 1.1;
+    transition: ease 0.5s;
+    background-color: coral;
+}
+.new button{
+    cursor: pointer;
+}
+.footer{
+    background-color: #1d1d1d;
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    position: relative; /* Ensure child elements like .lgo can be positioned relative to this */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+.pgs{
+    gap: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pgs a{
+    padding: 0;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background: none;
+}
+.lgo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute; 
+
+}
+
+.toggle{
+    position: fixed;
+    bottom: 20px;
+    font-size: 2em;
+    right: 20px;
+    background-color: #1d1d1d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Ensure it stays above other elements */
+    display: none;
+}
